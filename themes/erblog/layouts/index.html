@@ -59,7 +59,7 @@
                 {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
                     <h1><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a> </h1>
                     {{ range $key, $value := $taxonomy }}
-                        <a href="{{ $taxonomyname | relLangURL }}/{{ $key | urlize | lower }}/">
+                        <a href="{{ $taxonomyname | relLangURL | urlize}}/{{ $key | urlize | lower }}/">
                             <span class="layui-badge {{with $.Site.Params.badge}}layui-bg-{{.}}{{end}}" style="margin: 5px">{{ $key }}</span>
                         </a>
                     {{end}}
