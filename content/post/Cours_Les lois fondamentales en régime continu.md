@@ -4,14 +4,14 @@ title: "Les lois fondamentales en régime continu"
 date: 2022-09-01T00:47:41+02:00
 description: "Nous allons aborder ici les lois principales à connaître pour pouvoir aller plus loins dans l'électronique"
 
-categories: [
+Catégories: [
     "Cours"
 ]
-tags: [
+Étiquettes: [
     "Lois",
 ]
 
-series: ["Les bases de l'électronique"]
+Séries: ["Les bases de l'électronique"]
 draft: false
 ---
 

@@ -39,7 +39,7 @@
             {{ end }}
 
             <div class="layui-card single-card">
-                <h2 class="single-title">Recent Posts</h2>
+                <h2 class="single-title">Les derniers articles</h2>
             {{ with (.Site.GetPage "section" "post")  }}
                 {{range first 5 .Pages.ByDate.Reverse}}
                 <div style="margin-left: 10px;">

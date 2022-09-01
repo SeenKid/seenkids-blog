@@ -24,7 +24,7 @@
 
         </div>
         <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
-            <h1>Biography</h1>
+            <h1>Biographie</h1>
             <h2>{{ safeHTML .Site.Params.Bio }}</h2>
         </div>
     </div>
@@ -34,7 +34,7 @@
     <div class="layui-container">
         <div class="layui-row recent-inner" >
             <div class="layui-col-md8 layui-col-sm8 layui-col-xs12">
-                <h1> Recent Posts </h1>
+                <h1> Les derniers articles </h1>
                 {{ with (.Site.GetPage "section" "post")  }}
                     {{$index_posts_num := $.Site.Params.index_posts_num | default 8}}
                     {{range first $index_posts_num .Pages.ByDate.Reverse}}

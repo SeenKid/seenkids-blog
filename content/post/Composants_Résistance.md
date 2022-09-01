@@ -4,11 +4,11 @@ title: "La résistance"
 date: 2022-09-01T12:45:37+02:00
 description: "La résistance est un des composants de base de l'électronique, nous allons donc en faire un bref tour"
 
-categories: [
+Catégories: [
     "Composants"
 ]
 
-series: ["Les bases de l'électronique"]
+Séries: ["Les bases de l'électronique"]
 draft: false
 ---
 

@@ -18,12 +18,12 @@ footnoteReturnLinkContents = "^"
     Il faut encore écrire la bio :sip:
     
     """
-    copyright = "Copyright © 2022, Zahkthar; all rights reserved."
+    copyright = "Copyright © 2022, Zahkthar; tous droits réservés."
 
 
 [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "A propos"
     url = "/about/"
     weight = 10
 
@@ -46,9 +46,9 @@ name = "Accueil"
     weight = 2
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+category = "Catégories"
+series = "Séries"
+tag = "Étiquettes"
 
 [[menu.icon]]
     url = "https://github.com/Zahkthar"
