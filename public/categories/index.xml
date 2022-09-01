@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Zahkthar</title>
+    <link>https://zahkthar.github.io/categories/</link>
+    <description>Recent content in Categories on Zahkthar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Sep 2022 12:45:37 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composants</title>
+      <link>https://zahkthar.github.io/categories/composants/</link>
+      <pubDate>Thu, 01 Sep 2022 12:45:37 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/categories/composants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cours</title>
+      <link>https://zahkthar.github.io/categories/cours/</link>
+      <pubDate>Thu, 01 Sep 2022 00:47:41 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/categories/cours/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
