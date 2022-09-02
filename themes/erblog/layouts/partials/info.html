@@ -4,24 +4,30 @@
 
     <!--
     <i class="layui-icon layui-icon-read" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span style="vertical-align: px;">{{ .WordCount }} Words</span>
+    <span style="vertical-align: px;">{{ .WordCount }} Mots</span>
     -->
-    {{if isset .Params "categories"}} 
-    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
-    {{end}}
-
-    {{ range $tag := .Params.categories }}
-        <a href="{{ "/categories/" | relLangURL }}{{ $tag | urlize | lower }}/">
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    {{ range $tag := .Params.Séries }}
+        <a href="{{ "/séries/" | relLangURL }}{{ $tag | urlize | lower }}/">
             <span class="layui-badge {{with $.Site.Params.badge}}layui-bg-{{.}}{{end}}" style="vertical-align: 2px;">{{ $tag }}</span>
         </a>
     {{ end }}
 
-    {{ if isset .Params "tags" }}
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
-    {{end}}
+    <!-- -->
 
-    {{ range $tag := .Params.tags }}
-        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize | lower }}/">
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    {{ range $tag := .Params.Catégories }}
+        <a href="{{ "/catégories/" | relLangURL }}{{ $tag | urlize | lower }}/">
+            <span class="layui-badge {{with $.Site.Params.badge}}layui-bg-{{.}}{{end}}" style="vertical-align: 2px;">{{ $tag }}</span>
+        </a>
+    {{ end }}
+
+    <!-- -->
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    {{ range $tag := .Params.Étiquettes }}
+        <a href="{{ "/étiquettes/" | relLangURL }}{{ $tag | urlize | lower }}/">
             <span class="layui-badge {{with $.Site.Params.badge}}layui-bg-{{.}}{{end}}" style="vertical-align: 2px;">{{ $tag }}</span>
         </a>
     {{ end }}

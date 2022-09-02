@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Zahkthar</title>
-    <link>https://zahkthar.github.io/post/</link>
-    <description>Recent content in Posts on Zahkthar</description>
+    <title>Les bases de l&#39;électronique on Zahkthar</title>
+    <link>https://zahkthar.github.io/s%C3%A9ries/les-bases-de-l%C3%A9lectronique/</link>
+    <description>Recent content in Les bases de l&#39;électronique on Zahkthar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Sep 2022 12:45:37 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 12:45:37 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/s%C3%A9ries/les-bases-de-l%C3%A9lectronique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La résistance</title>
       <link>https://zahkthar.github.io/post/composants_r%C3%A9sistance/</link>
