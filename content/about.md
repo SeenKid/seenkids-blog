@@ -3,7 +3,7 @@ title: "A propos"
 description: "A propos de ce site :"
 aliases: ["contact"]
 date: 2022-09-01T01:08:30+02:00
-draft: true
+draft: false
 ---
 
 Ce site utilise :
