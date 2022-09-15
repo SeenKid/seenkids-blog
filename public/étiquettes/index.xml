@@ -6,11 +6,11 @@
     <description>Recent content in Étiquettes on Zahkthar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Sep 2022 00:47:41 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 17:35:41 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lois</title>
       <link>https://zahkthar.github.io/%C3%A9tiquettes/lois/</link>
-      <pubDate>Thu, 01 Sep 2022 00:47:41 +0200</pubDate>
+      <pubDate>Thu, 15 Sep 2022 17:35:41 +0200</pubDate>
       
       <guid>https://zahkthar.github.io/%C3%A9tiquettes/lois/</guid>
       <description></description>
@@ -19,9 +19,18 @@
     <item>
       <title>Théorie</title>
       <link>https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/</link>
-      <pubDate>Thu, 01 Sep 2022 00:47:41 +0200</pubDate>
+      <pubDate>Thu, 15 Sep 2022 17:35:41 +0200</pubDate>
       
       <guid>https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan du site</title>
+      <link>https://zahkthar.github.io/%C3%A9tiquettes/plan-du-site/</link>
+      <pubDate>Thu, 15 Sep 2022 17:32:02 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/%C3%A9tiquettes/plan-du-site/</guid>
       <description></description>
     </item>
     

@@ -1,7 +1,7 @@
 ---
 author: "Zahkthar"
 title: "Les lois fondamentales en régime continu"
-date: 2022-09-01T00:47:41+02:00
+date: 2022-09-15T17:35:41+02:00
 description: "Les principales lois à connaître pour pouvoir aller plus loin dans l'électronique."
 
 Catégories: [

@@ -15,7 +15,7 @@ footnoteReturnLinkContents = "^"
     portrait = "https://i.ibb.co/kG74Q7F/Logo-Zahkthar.png"
     bio = """
     
-    Sortant d'un BTS en électronique, actuellement étudiant en Licence d'Informatique et passionné d'informatique et d'électronique, je publie ici "régulièrement" des articles résumant des principes d'électronique et plus tard de programmation appliquée à l'embarqué.
+    Sortant d'un BTS en électronique, actuellement étudiant en licence d'informatique et passionné d'informatique ainsi que d'électronique, je publie ici "régulièrement" des articles résumant des principes d'électronique et plus tard de programmation appliquée à l'embarqué. Un ordre de lecture est proposé <a href="post/informations/informations_vous-ne-savez-pas-par-ou-commencer/" style="text-decoration: underline;">ici</a>.
     
     """
     copyright = "Copyright © 2022, Zahkthar; tous droits réservés."
