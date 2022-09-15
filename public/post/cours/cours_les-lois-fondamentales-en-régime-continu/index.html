@@ -1,0 +1,334 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Zahkthar - Les lois fondamentales en régime continu </title>
+    
+    
+    <meta content="Zahkthar" name="keywords">
+    
+    <meta content="Zahkthar - Les principales lois à connaître pour pouvoir aller plus loin dans l&#39;électronique." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+        <link rel="icon" href="https://i.ibb.co/kG74Q7F/Logo-Zahkthar.png">
+    
+
+    
+
+    
+
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src=" /layui/layui.js"></script>
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+        <a href=""><img src="https://i.ibb.co/kG74Q7F/Logo-Zahkthar.png" class="layui-nav-img" style="margin-left:10px;margin-top:-10px"></a>
+    
+    
+    <a class="nav-self-logo" href="/">
+        Zahkthar
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+        
+        <li class="layui-nav-item" id="nav_big"><a href="/post/">Articles</a></li>
+        
+
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">A propos</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                <dd><a href="/post/">Articles</a></dd>
+                
+
+                
+                    
+                        <dd><a href="/about/">A propos</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Les lois fondamentales en régime continu</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-09-01</span>
+
+    
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+        <a href="/cat%c3%a9gories/cours/">
+            <span class="layui-badge " style="vertical-align: 2px;">Cours</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/%c3%a9tiquettes/lois/">
+            <span class="layui-badge " style="vertical-align: 2px;">Lois</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p><strong>Les principales lois à connaître pour pouvoir aller plus loin dans l&rsquo;électronique.</strong></p>
+<p>Avant de pouvoir réellement faire de l&rsquo;électronique, c&rsquo;est-à-dire lire des schémas, programmer des microcontrôleurs, découvrir des nouveaux composants ou même designer/construire ses propres circuits, il faut avoir un minimum de bases ! C&rsquo;est donc ce que je propose de faire dans cette série d&rsquo;articles : récapituler les bases vitales à la poursuite de l&rsquo;électronique. Je recommande donc de lire cette série en premier si vous débutez l&rsquo;électronique, ce qui vous amènera ensuite à pouvoir vous spécialiser un peu plus vers le sujet qui vous intéresse.</p>
+<p>Nous allons donc commencer par quelques définitions peut-être évidentes pour certains, mais qui permettront de mieux comprendre la suite :</p>
+<ol>
+<li><a href="#la-charge-%C3%A9lectrique-lintensit%C3%A9-et-la-loi-des-n%C5%93uds">La charge électrique, l&rsquo;intensité et la loi des nœuds</a></li>
+<li><a href="#la-tension-et-la-loi-des-mailles">La tension et la loi des mailles</a></li>
+<li><a href="#la-r%C3%A9sistance-et-la-loi-dohm">La résistance et la loi d&rsquo;Ohm</a></li>
+<li><a href="#la-notion-de-puissancee-et-d%C3%A9nergie">La notion de puissance et d&rsquo;énergie</a></li>
+</ol>
+<h3 id="la-charge-électrique-lintensité-et-la-loi-des-nœuds">La charge électrique, l&rsquo;intensité et la loi des nœuds</h3>
+<h4 id="la-charge-électrique-et-lintensité">La charge électrique et l&rsquo;intensité</h4>
+<p>N&rsquo;importe quel matériau conducteur dans un circuit fermé contenant un électromoteur (ça peut être un générateur, une batterie, une pile, un panneau solaire, etc&hellip;) est traversé par un courant électrique. Le courant électrique est en réalité un flux d&rsquo;électrons qui traverse le circuit depuis une borne du générateur dans l&rsquo;objectif d&rsquo;y retourner par son autre borne.</p>
+<p>La charge électrique d&rsquo;un électron étant négative (-1.6 * 10-19 C -&gt; Coulombs), le sens conventionnel du courant (du + vers le -) est opposé à celui des électrons (du - vers le +)</p>
+<p>Si on note &ldquo;dq&rdquo; la charge électrique en Coulombs transportées par les électrons traversant un conducteur pendant une durée &ldquo;dt&rdquo;, l&rsquo;intensité que l&rsquo;on notera I (ou i) sera donnée par la formule :</p>
+<p>$$I = \frac{dq}{dt}$$</p>
+<p>Où :</p>
+<ul>
+<li>I est en <strong>Ampères</strong> (A)</li>
+<li>dq est en <strong>Coulombs</strong> (C)</li>
+<li>dt est en <strong>secondes</strong> (s)</li>
+</ul>
+<h4 id="la-loi-des-nœuds">La loi des nœuds</h4>
+<p>La loi des nœuds peut se résumer simplement par une seule phrase :</p>
+<p><strong>&ldquo;La somme des intensités des courants qui entrent par un nœud est égale à la somme des intensités des courants qui sortent du même nœud.&rdquo;</strong></p>
+<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff's_Current_Law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kirchhoff%27s_Current_Law.svg" alt="Image représentant la loi des nœuds" title="Image représentant la loi des nœuds"></a></p>
+<p>Ici, la somme des courants i1 et i2 qui rentrent dans le nœud est égale à la somme des courants i3 et i4 qui sortent du nœud.</p>
+<h3 id="la-tension-et-la-loi-des-mailles">La tension et la loi des mailles</h3>
+<h4 id="la-tension-électrique">La tension électrique</h4>
+<p>La tension n&rsquo;est pas une grandeur qu&rsquo;il est facile de définir sans entrer dans la théorie. Mais par analogie, on arrive à s&rsquo;approcher du sens de cette grandeur. On peut faire l&rsquo;analogie entre la tension électrique à un point donnée du circuit et l&rsquo;énergie potentielle en mécanique.</p>
+<p>$$Ep = m * g * h$$</p>
+<p>L&rsquo;énergie potentielle dépend directement de la hauteur à laquelle se trouve l&rsquo;objet de la formule. La hauteur maximale serait dans cet exemple la tension d&rsquo;alimentation (par exemple 5 volts) qui diminue à chaque fois que l&rsquo;on rencontre un conducteur.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Diviseur_de_tension#/media/Fichier:Pont_diviseur_tension.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_diviseur_tension.svg" alt="Pont diviseur de tension" title="Pont diviseur de tension"></a></p>
+<p>Dans ce circuit, que l&rsquo;on appelle un &ldquo;pont diviseur de tension&rdquo; (nous y reviendrons plus tard), si on imagine que U est la tension d&rsquo;alimentation du circuit, 5V par exemple, avant la première résistance la tension sera égale à U, soit 5V. Après la première résistance, la tension aura chuté. Après la deuxième résistance, la tension sera égale à 0.</p>
+<p>L&rsquo;intérêt de ce circuit étant de convertir une tension en une tension plus basse en jouant sur le rapport entre les deux résistances</p>
+<h4 id="la-différence-de-potentiel">La différence de potentiel</h4>
+<p>La différence de potentiel (aussi appelée ddp à l&rsquo;écrit) est une grandeur que l&rsquo;on confond souvent avec la tension. La différence de potentiel, comme son nom l&rsquo;indique, est une différence entre deux points d&rsquo;un circuit. Elle demande donc un point de repère.</p>
+<p>Si l&rsquo;on reprend le circuit ci-dessus et que l&rsquo;on admet que pour les 5V totaux, il y a une répartition égale de la tension entre les deux résistances, nous nous retrouvons donc avec U1 qui vaut 2.5V et U2 qui vaut aussi 2.5V. Mais d&rsquo;où viennent ces 2.5V ? En réalité U1 est une <strong>différence</strong> de potentiel et représente donc le résultat de la soustraction entre la tension U et la tension après le passage dans la résistance. Nous avons donc bien 5V - 2.5V = <strong>2.5V</strong>. U2 suit exactement le même raisonnement. Nous n&rsquo;avons plus que 2.5V après le passage du courant dans R1. La différence entre 2.5V et 0V est donc de 2.5 - 0 = <strong>2.5V</strong></p>
+<p>On admet donc que lorsque l&rsquo;on parle généralement de tension, on parle de la valeur de la tension à un point du circuit alors que si l&rsquo;on parle de la tension <strong>aux bornes</strong> ou <strong>autour</strong> d&rsquo;un composant, nous parlons bien de la différence entre le point avant et après ledit composant, de la tension qui le traverse en somme (si la tension est représentée par une flèche comme ci-dessus avec U, U1 et U2, on peut aussi appeler la ddp par son nom sur le schéma).</p>
+<h4 id="la-loi-des-mailles">La loi des mailles</h4>
+<p>La loi des mailles est la deuxième des <a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff">lois de Kirchhoff</a> dont la première était la <a href="#la-loi-des-n%C5%93uds">loi des nœuds</a>.</p>
+<p>La loi des mailles nous dit que lorsque l&rsquo;on traverse une maille (c&rsquo;est-à-dire une portion de circuit fermé) et partant d&rsquo;un point N pour revenir au même point N, la somme des différences de potentiel rencontrées est égale à <strong>zéro</strong>.</p>
+<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff_voltage_law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Kirchhoff_voltage_law.svg" alt="Loi des mailles" title="Loi des mailles"></a></p>
+<p>Dans cette image, nous pouvons voir une maille d&rsquo;un circuit plus grand. Selon cette loi, la somme des tensions présentes maille présente sur cette image est égale à zéro. Ici :</p>
+<p>$$v1+v2+v3+v4 = 0$$</p>
+<p>Si nous reprenons un exemple avec une tension d&rsquo;alimentation de 5V et que nous admettons que &ldquo;R1 = R2 = R3&rdquo;, c&rsquo;est à dire que la tension aux bornes de chaque résistance est égale. Nous aurons donc :</p>
+<p>$$v1 = v2 = v3 = v4 / 3$$</p>
+<p>Soit 1.66&hellip;V par résistance. Mais là vous vous demandez sûrement : &ldquo;ais 5 + 1.66 + 1.66 +1.66 ça fait 10 pas 0&rdquo; et oui, vu comme ça, le résultat est bien de 10V. Mais il y a un souci, une résistance <strong>s&rsquo;oppose</strong> au passage du courant, donc ici la tension <strong>chute</strong> de 1.66V entre l&rsquo;entrée et la sortie de la résistance. Si vous regardez une nouvelle fois <a href="#la-tension-%C3%A9lectrique">le schéma du pont diviseur</a>, vous remarquerez que les flèches représentant les tensions U1 et U2 sont dans le sens opposé à la flèche représentant la tension d&rsquo;alimentation U. C&rsquo;est justement en raison du fait que la résistance s&rsquo;oppose au passage du courant. Si nous reprenons donc notre calcul où nous en étions mais cette fois si en inversant les tensions aux bornes des résistances, nous obtenons :</p>
+<p>$$5 - 1.66 - 1.66 - 1.66 = 0V$$</p>
+<p>Ce qui correspond bien à ce que nous attendions.</p>
+<p><strong>Note 1</strong> : Pour calculer une différence de potentiel il faut simplement faire la soustraction entre la tension avant le composant et la tension après (ce qui permet d&rsquo;avoir le delta). Sur le dernier schéma, v1 peut aussi être nommée &ldquo;Uab&rdquo; soit &ldquo;La différence de tension entre le point <strong>a</strong> et le point <strong>b</strong>&rdquo; Nous pouvons donc la calculer en faisant <strong>Uab = Ua - Ub</strong> (A noter qu&rsquo;une tension négative est une tension positive dans l&rsquo;autre sens -&gt; -Uab = Uba il suffit d&rsquo;inverser le sens de la flèche).</p>
+<p><strong>Note 2</strong> : Quand on a le nom de la différence de potentiel, Uab par exemple, la flèche part de la 2ème lettre et pointe vers la première.</p>
+<p><strong>Note 3</strong> : La loi des mailles peut être vérifiée dans les deux sens de rotation. Choisissez celui qui vont convient le mieux. Pensez simplement à mettre toutes les tensions dans le bon sens.</p>
+<h3 id="la-résistance-et-la-loi-dohm">La résistance et la loi d&rsquo;Ohm</h3>
+<h4 id="la-résistance-électrique">La résistance électrique</h4>
+<p>Je l&rsquo;ai beaucoup utilisée en exemple au-dessus dans cet article et il est venu le temps de clarifier la définition de <strong>la résistance électrique</strong>.</p>
+<p>La résistance électrique est la propriété d&rsquo;un conducteur à s&rsquo;opposer au passage du courant. Dit plus simplement, plus la résistance d&rsquo;un conducteur sera grande, et plus l&rsquo;intensité du courant sera faible pour une tension donnée. À l&rsquo;inverse, si la résistance du conducteur est plus faible, l&rsquo;intensité sera plus forte.</p>
+<h4 id="la-loi-dohm">La loi d&rsquo;Ohm</h4>
+<p>La loi d&rsquo;Ohm est la loi empirique nommée en référence à <strong>Georg Simon Ohm</strong> qui l&rsquo;a publiée en 1827 qui relie l&rsquo;intensité du courant électrique traversant un conducteur à la tension à ses bornes. Elle énonce que :</p>
+<p>$$U = R * I$$</p>
+<p>Où :</p>
+<ul>
+<li>U est la tension en <strong>Volts</strong> (V)</li>
+<li>R est la résistance en <strong>Ohms</strong> (Ω)</li>
+<li>I est l&rsquo;intensité en <strong>Ampères</strong> (A)</li>
+</ul>
+<p>On appelle un conducteur <strong>ohmique</strong> un composant qui respecte la loi d&rsquo;Ohm (nous verrons dans d&rsquo;autres articles que ce n&rsquo;est pas tout le temps le cas). La résistance est un exemple de conducteur ohmique.</p>
+<p>La principale caractéristique principale d&rsquo;une résistance étant d&rsquo;opposer une plus ou moins grande résistance (mesurée en ohms donc) à la circulation du courant électrique, on l&rsquo;appelle par convention de langage une résistance. En anglais, son nom est &ldquo;resistor&rdquo;, qui serait traduisible en &ldquo;résisteur&rdquo; en français qui correspondrait plus à l&rsquo;idée d&rsquo;un &ldquo;composant qui résiste&rdquo; mais l&rsquo;appellation &ldquo;résistance&rdquo; est complètement majoritaire.</p>
+<h4 id="implications-de-la-loi-dohm">Implications de la loi d&rsquo;Ohm</h4>
+<ul>
+<li>La loi d&rsquo;Ohm permet de retrouver la troisième donnée lorsque l&rsquo;on n&rsquo;en a que deux. &ldquo;I = U/R&rdquo; permet de trouver l&rsquo;intensité, &ldquo;R = U/I&rdquo; permet de trouver la résistance et &ldquo;U = R*I&rdquo; permet de trouver la tension.</li>
+<li>On peut considérer la valeur de la résistance comme étant un coefficient de proportionnalité entre la valeur de la tension et l&rsquo;intensité. Si l&rsquo;on trace la caractéristique d&rsquo;une résistance (c&rsquo;est-à-dire la courbe de la tension en fonction de l&rsquo;intensité) nous obtiendrons une droite passant par l&rsquo;origine et donc la pente sera la valeur de la résistance.</li>
+</ul>
+<h3 id="la-notion-de-puissancee-et-dénergie">La notion de puissancee et d&rsquo;énergie</h3>
+<h4 id="la-puissance">La puissance</h4>
+<p>La puissance traversant un conducteur se calcule avec la formule suivante :</p>
+<p>$$P = U * I$$</p>
+<p>Où :</p>
+<ul>
+<li>P est la puissance en <strong>Watts</strong> (W)</li>
+<li>U est la tension en <strong>Volts</strong> (V)</li>
+<li>I est l&rsquo;intensité en <strong>Ampères</strong> (A)</li>
+</ul>
+<p>La puissance correspond au débit d&rsquo;énergie électrique reçue par le conducteur (<strong>attention !</strong> Ce n&rsquo;est pas le débit de charge électrique/le flux électrique passant dans le conducteur, à savoir <a href="#la-charge-%C3%A9lectrique-lintensit%C3%A9-et-la-loi-des-n%C5%93uds">l&rsquo;intensité</a>, il s&rsquo;agit bien ici d&rsquo;un débit <strong>d&rsquo;énergie</strong>). D&rsquo;où cette formule également valide :</p>
+<p>$$P = W / t$$</p>
+<p>Où :</p>
+<ul>
+<li>P est la puissance en <strong>Watts</strong> (W)</li>
+<li>W est la quantité d&rsquo;énergie en <strong>Joules</strong> (J)</li>
+<li>I est le temps en <strong>secondes</strong> (A)</li>
+</ul>
+<h4 id="lénergie">L&rsquo;énergie</h4>
+<p>La quantité d&rsquo;énergie électrique consommée par un conducteur pendant un temps donné est donnée par la formule suivante :</p>
+<p>$$W = P * t$$</p>
+<p>Avec les mêmes unités que la formule ci-dessus.</p>
+<p><strong>Note 1</strong> : En utilisant la loi d&rsquo;Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : <strong>P = U * I * t</strong>, ou encore <strong>P = R * I² * t</strong>. À vous de jouer avec les formules selon les informations dont vous disposez !</p>
+<p><strong>Note 2</strong> : Avec la formule <strong>W = P * t</strong>, on déduit qu&rsquo;un Joule correspond à une puissance d&rsquo;un Watt pendant une durée d&rsquo;une seconde, soit <strong>1Ws</strong></p>
+<p><strong>Note 3</strong> : 3.6 * 10^6 Joules = 1kWh</p>
+<p><strong>Note 4</strong> : 1 ch (cheval-vapeur) = 736W</p>
+<p> </p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Les derniers articles</h2>
+            
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/">
+                        <h3 class="">Les lois fondamentales en régime continu</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-09-01</span>
+
+    
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+        <a href="/cat%c3%a9gories/cours/">
+            <span class="layui-badge " style="vertical-align: 2px;">Cours</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/%c3%a9tiquettes/lois/">
+            <span class="layui-badge " style="vertical-align: 2px;">Lois</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-col-md4 layui-col-sm6 layui-col-xs6">
+                <h3>Les sites de qualité</h3>
+            </div>
+        </div>
+        <div class="layui-row">
+            
+            <div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+                <a href="/"><p class="footer-url">Accueil</p></a>
+            </div>
+            
+            <div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
+                <a href="/about/"><p class="footer-url">A propos</p></a>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <div class="layui-container">
+        <p class="copyright">Copyright © 2022, Zahkthar; tous droits réservés.</p>
+    </div>
+</footer>
+
+</body>
+</html>

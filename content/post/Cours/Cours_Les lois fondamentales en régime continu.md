@@ -26,7 +26,7 @@ Nous allons donc commencer par quelques définitions peut-être évidentes pour 
 1. [La charge électrique, l'intensité et la loi des nœuds](#la-charge-électrique-lintensité-et-la-loi-des-nœuds)
 2. [La tension et la loi des mailles](#la-tension-et-la-loi-des-mailles)
 3. [La résistance et la loi d'Ohm](#la-résistance-et-la-loi-dohm)
-4. [La notion de puissancee et d'énergie](#la-notion-de-puissancee-et-dénergie)
+4. [La notion de puissance et d'énergie](#la-notion-de-puissancee-et-dénergie)
 
 ### La charge électrique, l'intensité et la loi des nœuds
 
@@ -165,7 +165,7 @@ $$W = P * t$$
 
 Avec les mêmes unités que la formule ci-dessus.
 
-**Note 1** : En utilisant la loi d'Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : **P = U * I * t**, ou encore **P = R * I² * t**. A vous de jouer avec les formules selon les informations dont vous disposez !
+**Note 1** : En utilisant la loi d'Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : **P = U * I * t**, ou encore **P = R * I² * t**. À vous de jouer avec les formules selon les informations dont vous disposez !
 
 **Note 2** : Avec la formule **W = P * t**, on déduit qu'un Joule correspond à une puissance d'un Watt pendant une durée d'une seconde, soit **1Ws**
 

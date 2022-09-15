@@ -3,7 +3,7 @@ title = "Zahkthar"
 theme = "erblog"
 paginate = 3
 languageCode = "en"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
@@ -15,7 +15,7 @@ footnoteReturnLinkContents = "^"
     portrait = "https://i.ibb.co/kG74Q7F/Logo-Zahkthar.png"
     bio = """
     
-    Il faut encore écrire la bio :sip:
+    Sortant d'un BTS en électronique, actuellement étudiant en Licence d'Informatique et passionné d'informatique et d'électronique, je publie ici "régulièrement" des articles résumant des principes d'électronique et plus tard de programmation appliquée à l'embarqué.
     
     """
     copyright = "Copyright © 2022, Zahkthar; tous droits réservés."
