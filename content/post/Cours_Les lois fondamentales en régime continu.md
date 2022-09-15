@@ -4,7 +4,6 @@ title: "Les lois fondamentales en régime continu"
 date: 2022-09-01T00:47:41+02:00
 description: "Les principales lois à connaître pour pouvoir aller plus loin dans l'électronique."
 
-categoriesEnabled: true
 Catégories: [
     "Cours"
 ]
@@ -27,6 +26,7 @@ Nous allons donc commencer par quelques définitions peut-être évidentes pour 
 1. [La charge électrique, l'intensité et la loi des nœuds](#la-charge-électrique-lintensité-et-la-loi-des-nœuds)
 2. [La tension et la loi des mailles](#la-tension-et-la-loi-des-mailles)
 3. [La résistance et la loi d'Ohm](#la-résistance-et-la-loi-dohm)
+4. [La notion de puissancee et d'énergie](#la-notion-de-puissancee-et-dénergie)
 
 ### La charge électrique, l'intensité et la loi des nœuds
 
@@ -41,8 +41,8 @@ Si on note "dq" la charge électrique en Coulombs transportées par les électro
 $$I = \frac{dq}{dt}$$
 
 Où :
-- I est en **ampères** (A)
-- dq est en **coulombs** (C)
+- I est en **Ampères** (A)
+- dq est en **Coulombs** (C)
 - dt est en **secondes** (s)
 
 #### La loi des nœuds
@@ -122,9 +122,9 @@ La loi d'Ohm est la loi empirique nommée en référence à **Georg Simon Ohm** 
 $$U = R * I$$
 
 Où :
-- U est la tension en Volts (V)
-- R est la résistance en Ohms (Ω)
-- I est l'intensité en Ampères (A)
+- U est la tension en **Volts** (V)
+- R est la résistance en **Ohms** (Ω)
+- I est l'intensité en **Ampères** (A)
 
 On appelle un conducteur **ohmique** un composant qui respecte la loi d'Ohm (nous verrons dans d'autres articles que ce n'est pas tout le temps le cas). La résistance est un exemple de conducteur ohmique.
 
@@ -134,5 +134,43 @@ La principale caractéristique principale d'une résistance étant d'opposer une
 
 - La loi d'Ohm permet de retrouver la troisième donnée lorsque l'on n'en a que deux. "I = U/R" permet de trouver l'intensité, "R = U/I" permet de trouver la résistance et "U = R*I" permet de trouver la tension. 
 - On peut considérer la valeur de la résistance comme étant un coefficient de proportionnalité entre la valeur de la tension et l'intensité. Si l'on trace la caractéristique d'une résistance (c'est-à-dire la courbe de la tension en fonction de l'intensité) nous obtiendrons une droite passant par l'origine et donc la pente sera la valeur de la résistance.
+
+### La notion de puissancee et d'énergie
+
+#### La puissance
+
+La puissance traversant un conducteur se calcule avec la formule suivante :
+
+$$P = U * I$$
+
+Où :
+- P est la puissance en **Watts** (W)
+- U est la tension en **Volts** (V)
+- I est l'intensité en **Ampères** (A)
+
+La puissance correspond au débit d'énergie électrique reçue par le conducteur (**attention !** Ce n'est pas le débit de charge électrique/le flux électrique passant dans le conducteur, à savoir [l'intensité](#la-charge-électrique-lintensité-et-la-loi-des-nœuds), il s'agit bien ici d'un débit **d'énergie**). D'où cette formule également valide :
+
+$$P = W / t$$
+
+Où :
+- P est la puissance en **Watts** (W)
+- W est la quantité d'énergie en **Joules** (J)
+- I est le temps en **secondes** (A)
+
+#### L'énergie
+
+La quantité d'énergie électrique consommée par un conducteur pendant un temps donné est donnée par la formule suivante :
+
+$$W = P * t$$
+
+Avec les mêmes unités que la formule ci-dessus.
+
+**Note 1** : En utilisant la loi d'Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : **P = U * I * t**, ou encore **P = R * I² * t**. A vous de jouer avec les formules selon les informations dont vous disposez !
+
+**Note 2** : Avec la formule **W = P * t**, on déduit qu'un Joule correspond à une puissance d'un Watt pendant une durée d'une seconde, soit **1Ws**
+
+**Note 3** : 3.6 * 10^6 Joules = 1kWh
+
+**Note 4** : 1 ch (cheval-vapeur) = 736W
 
 &nbsp;
