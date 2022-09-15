@@ -133,6 +133,6 @@ La principale caractéristique principale d'une résistance étant d'opposer une
 #### Implications de la loi d'Ohm
 
 - La loi d'Ohm permet de retrouver la troisième donnée lorsque l'on n'en a que deux. "I = U/R" permet de trouver l'intensité, "R = U/I" permet de trouver la résistance et "U = R*I" permet de trouver la tension. 
-- On peut considérer la valeur de la résistance comme étant un coefficient de proportionnalité entre la valeur de la tensio net l'intensité. Si l'on trace la caractéristique d'une résistance (c'est-à-dire la courbe de la tension en fonction de l'intensité) nous obtiendrons une droite passant par l'origine et donc la pente sera la valeur de la résistance.
+- On peut considérer la valeur de la résistance comme étant un coefficient de proportionnalité entre la valeur de la tension et l'intensité. Si l'on trace la caractéristique d'une résistance (c'est-à-dire la courbe de la tension en fonction de l'intensité) nous obtiendrons une droite passant par l'origine et donc la pente sera la valeur de la résistance.
 
 &nbsp;
