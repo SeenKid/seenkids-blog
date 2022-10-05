@@ -6,7 +6,19 @@
     <description>Recent content in Théorie on Zahkthar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Sep 2022 17:35:41 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Oct 2022 09:45:37 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La résistance</title>
+      <link>https://zahkthar.github.io/post/composants/composants_r%C3%A9sistance/</link>
+      <pubDate>Wed, 05 Oct 2022 09:45:37 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/post/composants/composants_r%C3%A9sistance/</guid>
+      <description>Un résumé des choses à savoir sur la résistance :
+La résistance est un des composants les plus courants des circuits électroniques. Nous en avons légèrement parlé dans &amp;ldquo;Les lois fondamentales en régime continu&amp;rdquo; mais dans cet article, je vais tenter de faire un résumé de tout ce qu&amp;rsquo;il y a à savoir pour pouvoir utiliser simplement ce composant.
+Voici donc le sommaire de l&amp;rsquo;article :
+Les unités liées à la résistance La loi d&amp;rsquo;Ohm L&amp;rsquo;effet Joule Résistance équivalente en série Résistance équivalente en dérivation Les unités liées à la résistance Dans le composant électrique qu&amp;rsquo;est la résistance, il y a quelques grandeurs que l&amp;rsquo;on peut connaître selon son type ou son matériau.</description>
+    </item>
+    
     <item>
       <title>Les lois fondamentales en régime continu</title>
       <link>https://zahkthar.github.io/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/</link>

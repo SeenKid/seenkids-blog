@@ -95,7 +95,7 @@ Si nous reprenons un exemple avec une tension d'alimentation de 5V et que nous a
 
 $$v1 = v2 = v3 = v4 / 3$$
 
-Soit 1.66...V par résistance. Mais là vous vous demandez sûrement : "ais 5 + 1.66 + 1.66 +1.66 ça fait 10 pas 0" et oui, vu comme ça, le résultat est bien de 10V. Mais il y a un souci, une résistance **s'oppose** au passage du courant, donc ici la tension **chute** de 1.66V entre l'entrée et la sortie de la résistance. Si vous regardez une nouvelle fois [le schéma du pont diviseur](#la-tension-électrique), vous remarquerez que les flèches représentant les tensions U1 et U2 sont dans le sens opposé à la flèche représentant la tension d'alimentation U. C'est justement en raison du fait que la résistance s'oppose au passage du courant. Si nous reprenons donc notre calcul où nous en étions mais cette fois si en inversant les tensions aux bornes des résistances, nous obtenons :
+Soit 1.66...V par résistance. Mais là vous vous demandez sûrement : "Mais 5 + 1.66 + 1.66 +1.66 ça fait 10 pas 0" et oui, vu comme ça, le résultat est bien de 10V. Mais il y a un souci, une résistance **s'oppose** au passage du courant, donc ici la tension **chute** de 1.66V entre l'entrée et la sortie de la résistance. Si vous regardez une nouvelle fois [le schéma du pont diviseur](#la-tension-électrique), vous remarquerez que les flèches représentant les tensions U1 et U2 sont dans le sens opposé à la flèche représentant la tension d'alimentation U. C'est justement en raison du fait que la résistance s'oppose au passage du courant. Si nous reprenons donc notre calcul où nous en étions mais cette fois si en inversant les tensions aux bornes des résistances, nous obtenons :
 
 $$5 - 1.66 - 1.66 - 1.66 = 0V$$
 
@@ -165,7 +165,7 @@ $$W = P * t$$
 
 Avec les mêmes unités que la formule ci-dessus.
 
-**Note 1** : En utilisant la loi d'Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : **P = U * I * t**, ou encore **P = R * I² * t**. À vous de jouer avec les formules selon les informations dont vous disposez !
+**Note 1** : En utilisant la loi d'Ohm, nous pouvons trouver de nouvelles formules pour calculer l'énergie. Par exemple : **W = U * I * t**, ou encore **W = R * I² * t**. À vous de jouer avec les formules selon les informations dont vous disposez !
 
 **Note 2** : Avec la formule **W = P * t**, on déduit qu'un Joule correspond à une puissance d'un Watt pendant une durée d'une seconde, soit **1Ws**
 

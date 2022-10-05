@@ -184,7 +184,7 @@ layui.use('element', function(){
 <p>$$v1+v2+v3+v4 = 0$$</p>
 <p>Si nous reprenons un exemple avec une tension d&rsquo;alimentation de 5V et que nous admettons que &ldquo;R1 = R2 = R3&rdquo;, c&rsquo;est à dire que la tension aux bornes de chaque résistance est égale. Nous aurons donc :</p>
 <p>$$v1 = v2 = v3 = v4 / 3$$</p>
-<p>Soit 1.66&hellip;V par résistance. Mais là vous vous demandez sûrement : &ldquo;ais 5 + 1.66 + 1.66 +1.66 ça fait 10 pas 0&rdquo; et oui, vu comme ça, le résultat est bien de 10V. Mais il y a un souci, une résistance <strong>s&rsquo;oppose</strong> au passage du courant, donc ici la tension <strong>chute</strong> de 1.66V entre l&rsquo;entrée et la sortie de la résistance. Si vous regardez une nouvelle fois <a href="#la-tension-%C3%A9lectrique">le schéma du pont diviseur</a>, vous remarquerez que les flèches représentant les tensions U1 et U2 sont dans le sens opposé à la flèche représentant la tension d&rsquo;alimentation U. C&rsquo;est justement en raison du fait que la résistance s&rsquo;oppose au passage du courant. Si nous reprenons donc notre calcul où nous en étions mais cette fois si en inversant les tensions aux bornes des résistances, nous obtenons :</p>
+<p>Soit 1.66&hellip;V par résistance. Mais là vous vous demandez sûrement : &ldquo;Mais 5 + 1.66 + 1.66 +1.66 ça fait 10 pas 0&rdquo; et oui, vu comme ça, le résultat est bien de 10V. Mais il y a un souci, une résistance <strong>s&rsquo;oppose</strong> au passage du courant, donc ici la tension <strong>chute</strong> de 1.66V entre l&rsquo;entrée et la sortie de la résistance. Si vous regardez une nouvelle fois <a href="#la-tension-%C3%A9lectrique">le schéma du pont diviseur</a>, vous remarquerez que les flèches représentant les tensions U1 et U2 sont dans le sens opposé à la flèche représentant la tension d&rsquo;alimentation U. C&rsquo;est justement en raison du fait que la résistance s&rsquo;oppose au passage du courant. Si nous reprenons donc notre calcul où nous en étions mais cette fois si en inversant les tensions aux bornes des résistances, nous obtenons :</p>
 <p>$$5 - 1.66 - 1.66 - 1.66 = 0V$$</p>
 <p>Ce qui correspond bien à ce que nous attendions.</p>
 <p><strong>Note 1</strong> : Pour calculer une différence de potentiel il faut simplement faire la soustraction entre la tension avant le composant et la tension après (ce qui permet d&rsquo;avoir le delta). Sur le dernier schéma, v1 peut aussi être nommée &ldquo;Uab&rdquo; soit &ldquo;La différence de tension entre le point <strong>a</strong> et le point <strong>b</strong>&rdquo; Nous pouvons donc la calculer en faisant <strong>Uab = Ua - Ub</strong> (A noter qu&rsquo;une tension négative est une tension positive dans l&rsquo;autre sens -&gt; -Uab = Uba il suffit d&rsquo;inverser le sens de la flèche).</p>
@@ -232,7 +232,7 @@ layui.use('element', function(){
 <p>La quantité d&rsquo;énergie électrique consommée par un conducteur pendant un temps donné est donnée par la formule suivante :</p>
 <p>$$W = P * t$$</p>
 <p>Avec les mêmes unités que la formule ci-dessus.</p>
-<p><strong>Note 1</strong> : En utilisant la loi d&rsquo;Ohm, nous pouvons trouver de nouvelles formules pour calculer la puissance. Par exemple : <strong>P = U * I * t</strong>, ou encore <strong>P = R * I² * t</strong>. À vous de jouer avec les formules selon les informations dont vous disposez !</p>
+<p><strong>Note 1</strong> : En utilisant la loi d&rsquo;Ohm, nous pouvons trouver de nouvelles formules pour calculer l&rsquo;énergie. Par exemple : <strong>W = U * I * t</strong>, ou encore <strong>W = R * I² * t</strong>. À vous de jouer avec les formules selon les informations dont vous disposez !</p>
 <p><strong>Note 2</strong> : Avec la formule <strong>W = P * t</strong>, on déduit qu&rsquo;un Joule correspond à une puissance d&rsquo;un Watt pendant une durée d&rsquo;une seconde, soit <strong>1Ws</strong></p>
 <p><strong>Note 3</strong> : 3.6 * 10^6 Joules = 1kWh</p>
 <p><strong>Note 4</strong> : 1 ch (cheval-vapeur) = 736W</p>
@@ -247,6 +247,47 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <h2 class="single-title">Les derniers articles</h2>
             
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/composants/composants_r%C3%A9sistance/">
+                        <h3 class="">La résistance</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-10-05</span>
+
+    
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+        <a href="/cat%c3%a9gories/composants/">
+            <span class="layui-badge " style="vertical-align: 2px;">Composants</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
                 
                 <div style="margin-left: 10px;">
                     <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
