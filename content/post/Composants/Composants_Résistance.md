@@ -66,7 +66,7 @@ Nous avions déjà introduit cette loi dans l'article précédent (cf. "[Les loi
 
 **George Simon Ohm** en 1827 a trouvé empiriquement une relation directe entre l'intensité traversant un élément résistif (une résistance) et la tension à ses bornes. En effet, si l'on trace la courbe de caractéristique d'une résistance (le courant qui la traverse en fonction de la tension à ses bornes) nous voyons que le coefficient directeur de la droite est la résistance !
 
-[![Courbe caractéristique d'une résistance](/Composant_Resistance/CourbeCaracteristique.png "Courbe caractéristique d'une résistance")](/Composant_Resistance/CourbeCaracteristique.png)
+[![Courbe caractéristique d'une résistance](/res/images/Composant_Resistance/CourbeCaracteristique.png "Courbe caractéristique d'une résistance")](/res/images/Composant_Resistance/CourbeCaracteristique.png)
 
 Dans cette exemple, nous avons une résistance de 2 Ohms, la tension en abscisse et l'intensité en ordonnée. Nous voyons donc que pour chaque volt que l'on monte, l'intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.
 
@@ -93,7 +93,7 @@ Plusieurs résistances en série sont équivalentes à une seule résistance don
 
 Cette règle peut être démontrée simplement avec la loi d'Ohm mais gardons simplement l'idée générale : **La résistance électrique des résistances en séries s'additionnent.**
 
-[![Résistance équivalente en série](/Composant_Resistance/ResistancesEnSerie.png "Résistance équivalente en série")](/Composant_Resistance/ResistancesEnSerie.png)
+[![Résistance équivalente en série](/res/images/Composant_Resistance/ResistancesEnSerie.png "Résistance équivalente en série")](/res/images/Composant_Resistance/ResistancesEnSerie.png)
 
 Dans cet exemple, deux résistances de 10kΩ placées en série sont équivalentes à une résistance de 20kΩ.
 
@@ -107,7 +107,7 @@ Ce qui est finalement un résultat assez logique dans l'idée, si le courant est
 
 Si maintenant les résistances R1 et R2 sont montées en dérivation, quelle sera la résistance équivalente ?
 
-[![Résistance équivalente en dérivation](/Composant_Resistance/ResistancesEnDerivation.png "Résistance équivalente en dérivation")](/Composant_Resistance/ResistancesEnDerivation.png)
+[![Résistance équivalente en dérivation](/res/images/Composant_Resistance/ResistancesEnDerivation.png "Résistance équivalente en dérivation")](/res/images/Composant_Resistance/ResistancesEnDerivation.png)
 
 Et bien c'était tout l'intérêt d'avoir présenté la [conductance électrique](#la-conductance-électrique) un peu plus haut. En série, les résistances s'additionnent, mais en dérivation, ce sont les conductances qui s'additionnent ! Ce qui est assez logique, plusieurs conducteurs résistifs mis en parallèle conduisent mieux le courant que s'ils étaient seuls. Par extension logique que l'on validera juste après par la formule, une infinité de résistance mises en parallèle équivaut à une résistance quasi nulle.
 

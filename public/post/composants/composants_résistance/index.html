@@ -167,7 +167,7 @@ layui.use('element', function(){
 <h3 id="la-loi-dohm">La loi d&rsquo;Ohm</h3>
 <p>Nous avions déjà introduit cette loi dans l&rsquo;article précédent (cf. &ldquo;<a href="https://zahkthar.github.io/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/">Les lois fondamentales en régime continu</a>&rdquo;) mais je vais quand même en refaire un rapide résumé.</p>
 <p><strong>George Simon Ohm</strong> en 1827 a trouvé empiriquement une relation directe entre l&rsquo;intensité traversant un élément résistif (une résistance) et la tension à ses bornes. En effet, si l&rsquo;on trace la courbe de caractéristique d&rsquo;une résistance (le courant qui la traverse en fonction de la tension à ses bornes) nous voyons que le coefficient directeur de la droite est la résistance !</p>
-<p><a href="/Composant_Resistance/CourbeCaracteristique.png"><img src="/Composant_Resistance/CourbeCaracteristique.png" alt="Courbe caractéristique d&amp;rsquo;une résistance" title="Courbe caractéristique d'une résistance"></a></p>
+<p><a href="/res/images/Composant_Resistance/CourbeCaracteristique.png"><img src="/res/images/Composant_Resistance/CourbeCaracteristique.png" alt="Courbe caractéristique d&amp;rsquo;une résistance" title="Courbe caractéristique d'une résistance"></a></p>
 <p>Dans cette exemple, nous avons une résistance de 2 Ohms, la tension en abscisse et l&rsquo;intensité en ordonnée. Nous voyons donc que pour chaque volt que l&rsquo;on monte, l&rsquo;intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.</p>
 <p>On en déduit donc la formule générale de la loi d&rsquo;Ohm :</p>
 <p>$$U = R * I$$</p>
@@ -181,14 +181,14 @@ $$P = R * I^{2}$$</p>
 <h3 id="résistance-équivalente-en-série">Résistance équivalente en série</h3>
 <p>Plusieurs résistances en série sont équivalentes à une seule résistance dont la valeur est la somme des résistances composantes.</p>
 <p>Cette règle peut être démontrée simplement avec la loi d&rsquo;Ohm mais gardons simplement l&rsquo;idée générale : <strong>La résistance électrique des résistances en séries s&rsquo;additionnent.</strong></p>
-<p><a href="/Composant_Resistance/ResistancesEnSerie.png"><img src="/Composant_Resistance/ResistancesEnSerie.png" alt="Résistance équivalente en série" title="Résistance équivalente en série"></a></p>
+<p><a href="/res/images/Composant_Resistance/ResistancesEnSerie.png"><img src="/res/images/Composant_Resistance/ResistancesEnSerie.png" alt="Résistance équivalente en série" title="Résistance équivalente en série"></a></p>
 <p>Dans cet exemple, deux résistances de 10kΩ placées en série sont équivalentes à une résistance de 20kΩ.</p>
 <p>$$Req = \sum_{n = 1}^{k} Rn$$</p>
 <p>Où n est la résistance actuelle et k la dernière résistance en série.</p>
 <p>Ce qui est finalement un résultat assez logique dans l&rsquo;idée, si le courant est freiné deux fois par une résistance de 10kΩ, c&rsquo;est la même chose que s&rsquo;il était freiné une seule fois par une résistance somme de 20kΩ.</p>
 <h3 id="résistance-équivalente-en-dérivation">Résistance équivalente en dérivation</h3>
 <p>Si maintenant les résistances R1 et R2 sont montées en dérivation, quelle sera la résistance équivalente ?</p>
-<p><a href="/Composant_Resistance/ResistancesEnDerivation.png"><img src="/Composant_Resistance/ResistancesEnDerivation.png" alt="Résistance équivalente en dérivation" title="Résistance équivalente en dérivation"></a></p>
+<p><a href="/res/images/Composant_Resistance/ResistancesEnDerivation.png"><img src="/res/images/Composant_Resistance/ResistancesEnDerivation.png" alt="Résistance équivalente en dérivation" title="Résistance équivalente en dérivation"></a></p>
 <p>Et bien c&rsquo;était tout l&rsquo;intérêt d&rsquo;avoir présenté la <a href="#la-conductance-%C3%A9lectrique">conductance électrique</a> un peu plus haut. En série, les résistances s&rsquo;additionnent, mais en dérivation, ce sont les conductances qui s&rsquo;additionnent ! Ce qui est assez logique, plusieurs conducteurs résistifs mis en parallèle conduisent mieux le courant que s&rsquo;ils étaient seuls. Par extension logique que l&rsquo;on validera juste après par la formule, une infinité de résistance mises en parallèle équivaut à une résistance quasi nulle.</p>
 <p>$$Geq = \sum_{n = 1}^{k} Gn$$</p>
 <p>Où n est la résistance actuelle et k la dernière résistance en parallèle.</p>
