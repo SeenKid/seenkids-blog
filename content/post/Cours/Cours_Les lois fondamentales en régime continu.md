@@ -51,7 +51,7 @@ La loi des nœuds peut se résumer simplement par une seule phrase :
 
 **"La somme des intensités des courants qui entrent par un nœud est égale à la somme des intensités des courants qui sortent du même nœud."**
 
-[![Image représentant la loi des nœuds](https://upload.wikimedia.org/wikipedia/commons/f/f2/Kirchhoff%27s_Current_Law.svg "Image représentant la loi des nœuds")](https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff's_Current_Law.svg)
+[![Image représentant la loi des nœuds](https://upload.wikimedia.org/wikipedia/commons/f/f2/Kirchhoff%27s_Current_Law.svg#center "Image représentant la loi des nœuds")](https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff's_Current_Law.svg)
 
 Ici, la somme des courants i1 et i2 qui rentrent dans le nœud est égale à la somme des courants i3 et i4 qui sortent du nœud.
 
@@ -65,7 +65,7 @@ $$Ep = m * g * h$$
 
 L'énergie potentielle dépend directement de la hauteur à laquelle se trouve l'objet de la formule. La hauteur maximale serait dans cet exemple la tension d'alimentation (par exemple 5 volts) qui diminue à chaque fois que l'on rencontre un conducteur.
 
-[![Pont diviseur de tension](https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_diviseur_tension.svg "Pont diviseur de tension")](https://fr.wikipedia.org/wiki/Diviseur_de_tension#/media/Fichier:Pont_diviseur_tension.svg)
+[![Pont diviseur de tension](https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_diviseur_tension.svg#center "Pont diviseur de tension")](https://fr.wikipedia.org/wiki/Diviseur_de_tension#/media/Fichier:Pont_diviseur_tension.svg)
 
 Dans ce circuit, que l'on appelle un "pont diviseur de tension" (nous y reviendrons plus tard), si on imagine que U est la tension d'alimentation du circuit, 5V par exemple, avant la première résistance la tension sera égale à U, soit 5V. Après la première résistance, la tension aura chuté. Après la deuxième résistance, la tension sera égale à 0.
 
@@ -85,7 +85,7 @@ La loi des mailles est la deuxième des [lois de Kirchhoff](https://fr.wikipedia
 
 La loi des mailles nous dit que lorsque l'on traverse une maille (c'est-à-dire une portion de circuit fermé) et partant d'un point N pour revenir au même point N, la somme des différences de potentiel rencontrées est égale à **zéro**.
 
-[![Loi des mailles](https://upload.wikimedia.org/wikipedia/commons/4/40/Kirchhoff_voltage_law.svg "Loi des mailles")](https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff_voltage_law.svg)
+[![Loi des mailles](https://upload.wikimedia.org/wikipedia/commons/4/40/Kirchhoff_voltage_law.svg#center "Loi des mailles")](https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff_voltage_law.svg)
 
 Dans cette image, nous pouvons voir une maille d'un circuit plus grand. Selon cette loi, la somme des tensions présentes maille présente sur cette image est égale à zéro. Ici :
 
