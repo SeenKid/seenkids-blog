@@ -78,14 +78,30 @@ $$U = R * I$$
 
 En courant continu, l'effet Joule correspond à la perte d'énergie électrique en énergie thermique au passage d'une résistance.
 
-$$W = R * I^{2} * t$$
+Pour l'expliquer plus simplement, nous avons déjà la formule de la puissance dans un coin de notre tête :
 
-Nous savions déjà que l'énergie était le produit entre la puissance et le temps
+$$P = U * I$$
+
+Ainsi que la loi d'Ohm que nous venons de revoir :
+
+$$U = R * I$$
+
+Nous pouvons donc mélanger les deux formules et donc remplacer le U présent dans la formule de la puissance par R * I, ce qui nous donne :
+
+$$P = R * I * I$$
+$$P = R * I^{2}$$
+
+Grâce à cette formule, nous pouvons maintenant calculer la puissance consommée par une résistance ! 
+
+Mais l'effet Joule correspond à la quantité d'énergie dissipée dans la résistance et non la puissance. Mais nous savons que l'énergie se calcule via la formule suivante :
 
 $$W = P * t$$
 
-On en déduit donc que la puissance perdue par effet Joule est calculée par :
-$$P = R * I^{2}$$
+Et si on remet notre formule pour la puissance consommée par une résistance, nous obtenons la formule caractéristique de l'effet Joule :
+
+$$W = R * I^{2} * t$$
+
+Cette formule, assez logiquement, nous permet de calculer la quantité d'énergie dissipée par une résistance. On parle généralement de pertes thermique, étant donné que la chaleur n'est pas une énergie intéressante dans un circuit électrique (à part si l'intérêt est de produire de la chaleur, comme dans un four ou un radiateur par exemple).
 
 ### Résistance équivalente en série
 
