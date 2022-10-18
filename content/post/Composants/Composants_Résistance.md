@@ -68,7 +68,7 @@ Nous avions déjà introduit cette loi dans l'article précédent (cf. "[Les loi
 
 [![Courbe caractéristique d'une résistance](/res/images/Composant_Resistance/CourbeCaracteristique.png#center "Courbe caractéristique d'une résistance")](/res/images/Composant_Resistance/CourbeCaracteristique.png)
 
-Dans cette exemple, nous avons une résistance de 2 Ohms, la tension en abscisse et l'intensité en ordonnée. Nous voyons donc que pour chaque volt que l'on monte, l'intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.
+Dans cet exemple, nous avons une résistance de 2 Ohms, la tension en abscisse et l'intensité en ordonnée. Nous voyons donc que pour chaque volt que l'on monte, l'intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.
 
 On en déduit donc la formule générale de la loi d'Ohm :
 
