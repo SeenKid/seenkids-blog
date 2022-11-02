@@ -22,7 +22,6 @@ draft: false
 Avant de pouvoir réellement faire de l'électronique, c'est-à-dire lire des schémas, programmer des microcontrôleurs, découvrir des nouveaux composants ou même designer/construire ses propres circuits, il faut avoir un minimum de bases ! C'est donc ce que je propose de faire dans cette série d'articles : récapituler les bases vitales à la poursuite de l'électronique. Je recommande donc de lire cette série en premier si vous débutez l'électronique, ce qui vous amènera ensuite à pouvoir vous spécialiser un peu plus vers le sujet qui vous intéresse.
 
 Nous allons donc commencer par quelques définitions peut-être évidentes pour certains, mais qui permettront de mieux comprendre la suite :
-
 1. [La charge électrique, l'intensité et la loi des nœuds](#la-charge-électrique-lintensité-et-la-loi-des-nœuds)
 2. [La tension et la loi des mailles](#la-tension-et-la-loi-des-mailles)
 3. [La résistance et la loi d'Ohm](#la-résistance-et-la-loi-dohm)
