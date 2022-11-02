@@ -6,7 +6,17 @@
     <description>Recent content in Théorie on Zahkthar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Oct 2022 09:45:37 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2022 13:08:30 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les sources d&#39;énergie électrique</title>
+      <link>https://zahkthar.github.io/post/cours/cours_les-sources-d%C3%A9nergie-%C3%A9lectrique/</link>
+      <pubDate>Wed, 02 Nov 2022 13:08:30 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/post/cours/cours_les-sources-d%C3%A9nergie-%C3%A9lectrique/</guid>
+      <description>Qu&amp;rsquo;est-ce qu&amp;rsquo;une source d&amp;rsquo;énergie électrique et comment la modéliser ?
+Comment alimenter un circuit n&amp;rsquo;est pas forcément la première chose à laquelle on pense quand on le pense ou lorsqu&amp;rsquo;on le dessine. Mais au final, c&amp;rsquo;est ce qui va faire que le circuit marche ou pas ! Dans cet article, nous allons voir quelle est la différence entre une source de tension et de courant et la différence entre un générateur parfait et réel.</description>
+    </item>
+    
     <item>
       <title>La résistance</title>
       <link>https://zahkthar.github.io/post/composants/composants_r%C3%A9sistance/</link>

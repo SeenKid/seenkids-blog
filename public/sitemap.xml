@@ -2,40 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zahkthar.github.io/cat%C3%A9gories/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
+    <loc>https://zahkthar.github.io/%C3%A9tiquettes/alimentation/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
   </url><url>
-    <loc>https://zahkthar.github.io/cat%C3%A9gories/composants/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
+    <loc>https://zahkthar.github.io/cat%C3%A9gories/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/cat%C3%A9gories/cours/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
   </url><url>
     <loc>https://zahkthar.github.io/%C3%A9tiquettes/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/s%C3%A9ries/les-bases-de-l%C3%A9lectronique/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/post/cours/cours_les-sources-d%C3%A9nergie-%C3%A9lectrique/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/%C3%A9tiquettes/lois/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/post/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/s%C3%A9ries/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/</loc>
+    <lastmod>2022-11-02T13:08:30+02:00</lastmod>
+  </url><url>
+    <loc>https://zahkthar.github.io/cat%C3%A9gories/composants/</loc>
     <lastmod>2022-10-05T09:45:37+02:00</lastmod>
   </url><url>
     <loc>https://zahkthar.github.io/post/composants/composants_r%C3%A9sistance/</loc>
     <lastmod>2022-10-05T09:45:37+02:00</lastmod>
   </url><url>
-    <loc>https://zahkthar.github.io/s%C3%A9ries/les-bases-de-l%C3%A9lectronique/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/post/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/s%C3%A9ries/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/%C3%A9tiquettes/th%C3%A9orie/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/</loc>
-    <lastmod>2022-10-05T09:45:37+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/cat%C3%A9gories/cours/</loc>
-    <lastmod>2022-09-15T17:35:41+02:00</lastmod>
-  </url><url>
     <loc>https://zahkthar.github.io/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/</loc>
-    <lastmod>2022-09-15T17:35:41+02:00</lastmod>
-  </url><url>
-    <loc>https://zahkthar.github.io/%C3%A9tiquettes/lois/</loc>
     <lastmod>2022-09-15T17:35:41+02:00</lastmod>
   </url><url>
     <loc>https://zahkthar.github.io/s%C3%A9ries/aide-aux-lecteurs/</loc>

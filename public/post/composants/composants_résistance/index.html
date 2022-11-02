@@ -33,10 +33,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
-    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link rel="stylesheet" href="/res/css/ZAddedCSS.css"></head>
 
 <body>
     
@@ -167,28 +167,36 @@ layui.use('element', function(){
 <h3 id="la-loi-dohm">La loi d&rsquo;Ohm</h3>
 <p>Nous avions déjà introduit cette loi dans l&rsquo;article précédent (cf. &ldquo;<a href="https://zahkthar.github.io/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/">Les lois fondamentales en régime continu</a>&rdquo;) mais je vais quand même en refaire un rapide résumé.</p>
 <p><strong>George Simon Ohm</strong> en 1827 a trouvé empiriquement une relation directe entre l&rsquo;intensité traversant un élément résistif (une résistance) et la tension à ses bornes. En effet, si l&rsquo;on trace la courbe de caractéristique d&rsquo;une résistance (le courant qui la traverse en fonction de la tension à ses bornes) nous voyons que le coefficient directeur de la droite est la résistance !</p>
-<p><a href="/res/images/Composant_Resistance/CourbeCaracteristique.png"><img src="/res/images/Composant_Resistance/CourbeCaracteristique.png" alt="Courbe caractéristique d&amp;rsquo;une résistance" title="Courbe caractéristique d'une résistance"></a></p>
-<p>Dans cette exemple, nous avons une résistance de 2 Ohms, la tension en abscisse et l&rsquo;intensité en ordonnée. Nous voyons donc que pour chaque volt que l&rsquo;on monte, l&rsquo;intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.</p>
+<p><a href="/res/images/Composant_Resistance/CourbeCaracteristique.png"><img src="/res/images/Composant_Resistance/CourbeCaracteristique.png#center" alt="Courbe caractéristique d&amp;rsquo;une résistance" title="Courbe caractéristique d'une résistance"></a></p>
+<p>Dans cet exemple, nous avons une résistance de 2 Ohms, la tension en ordonnée et l&rsquo;intensité en abscisse. Nous voyons donc que pour chaque volt que l&rsquo;on monte, l&rsquo;intensité monte de 2 ampères. Le coefficient directeur est bien 2, soit la valeur de notre résistance.</p>
 <p>On en déduit donc la formule générale de la loi d&rsquo;Ohm :</p>
 <p>$$U = R * I$$</p>
 <h3 id="leffet-joule">L&rsquo;effet Joule</h3>
 <p>En courant continu, l&rsquo;effet Joule correspond à la perte d&rsquo;énergie électrique en énergie thermique au passage d&rsquo;une résistance.</p>
-<p>$$W = R * I^{2} * t$$</p>
-<p>Nous savions déjà que l&rsquo;énergie était le produit entre la puissance et le temps</p>
-<p>$$W = P * t$$</p>
-<p>On en déduit donc que la puissance perdue par effet Joule est calculée par :
+<p>Pour l&rsquo;expliquer plus simplement, nous avons déjà la formule de la puissance dans un coin de notre tête :</p>
+<p>$$P = U * I$$</p>
+<p>Ainsi que la loi d&rsquo;Ohm que nous venons de revoir :</p>
+<p>$$U = R * I$$</p>
+<p>Nous pouvons donc mélanger les deux formules et donc remplacer le U présent dans la formule de la puissance par R * I, ce qui nous donne :</p>
+<p>$$P = R * I * I$$
 $$P = R * I^{2}$$</p>
+<p>Grâce à cette formule, nous pouvons maintenant calculer la puissance consommée par une résistance !</p>
+<p>Mais l&rsquo;effet Joule correspond à la quantité d&rsquo;énergie dissipée dans la résistance et non la puissance. Mais nous savons que l&rsquo;énergie se calcule via la formule suivante :</p>
+<p>$$W = P * t$$</p>
+<p>Et si on remet notre formule pour la puissance consommée par une résistance, nous obtenons la formule caractéristique de l&rsquo;effet Joule :</p>
+<p>$$W = R * I^{2} * t$$</p>
+<p>Cette formule, assez logiquement, nous permet de calculer la quantité d&rsquo;énergie dissipée par une résistance. On parle généralement de pertes thermique, étant donné que la chaleur n&rsquo;est pas une énergie intéressante dans un circuit électrique (à part si l&rsquo;intérêt est de produire de la chaleur, comme dans un four ou un radiateur par exemple).</p>
 <h3 id="résistance-équivalente-en-série">Résistance équivalente en série</h3>
 <p>Plusieurs résistances en série sont équivalentes à une seule résistance dont la valeur est la somme des résistances composantes.</p>
 <p>Cette règle peut être démontrée simplement avec la loi d&rsquo;Ohm mais gardons simplement l&rsquo;idée générale : <strong>La résistance électrique des résistances en séries s&rsquo;additionnent.</strong></p>
-<p><a href="/res/images/Composant_Resistance/ResistancesEnSerie.png"><img src="/res/images/Composant_Resistance/ResistancesEnSerie.png" alt="Résistance équivalente en série" title="Résistance équivalente en série"></a></p>
+<p><a href="/res/images/Composant_Resistance/ResistancesEnSerie.png"><img src="/res/images/Composant_Resistance/ResistancesEnSerie.png#center" alt="Résistance équivalente en série" title="Résistance équivalente en série"></a></p>
 <p>Dans cet exemple, deux résistances de 10kΩ placées en série sont équivalentes à une résistance de 20kΩ.</p>
 <p>$$Req = \sum_{n = 1}^{k} Rn$$</p>
 <p>Où n est la résistance actuelle et k la dernière résistance en série.</p>
 <p>Ce qui est finalement un résultat assez logique dans l&rsquo;idée, si le courant est freiné deux fois par une résistance de 10kΩ, c&rsquo;est la même chose que s&rsquo;il était freiné une seule fois par une résistance somme de 20kΩ.</p>
 <h3 id="résistance-équivalente-en-dérivation">Résistance équivalente en dérivation</h3>
 <p>Si maintenant les résistances R1 et R2 sont montées en dérivation, quelle sera la résistance équivalente ?</p>
-<p><a href="/res/images/Composant_Resistance/ResistancesEnDerivation.png"><img src="/res/images/Composant_Resistance/ResistancesEnDerivation.png" alt="Résistance équivalente en dérivation" title="Résistance équivalente en dérivation"></a></p>
+<p><a href="/res/images/Composant_Resistance/ResistancesEnDerivation.png"><img src="/res/images/Composant_Resistance/ResistancesEnDerivation.png#center" alt="Résistance équivalente en dérivation" title="Résistance équivalente en dérivation"></a></p>
 <p>Et bien c&rsquo;était tout l&rsquo;intérêt d&rsquo;avoir présenté la <a href="#la-conductance-%C3%A9lectrique">conductance électrique</a> un peu plus haut. En série, les résistances s&rsquo;additionnent, mais en dérivation, ce sont les conductances qui s&rsquo;additionnent ! Ce qui est assez logique, plusieurs conducteurs résistifs mis en parallèle conduisent mieux le courant que s&rsquo;ils étaient seuls. Par extension logique que l&rsquo;on validera juste après par la formule, une infinité de résistance mises en parallèle équivaut à une résistance quasi nulle.</p>
 <p>$$Geq = \sum_{n = 1}^{k} Gn$$</p>
 <p>Où n est la résistance actuelle et k la dernière résistance en parallèle.</p>
@@ -214,6 +222,55 @@ $$P = R * I^{2}$$</p>
             <div class="layui-card single-card">
                 <h2 class="single-title">Les derniers articles</h2>
             
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/cours/cours_les-sources-d%C3%A9nergie-%C3%A9lectrique/">
+                        <h3 class="">Les sources d&#39;énergie électrique</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-11-02</span>
+
+    
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+        <a href="/cat%c3%a9gories/cours/">
+            <span class="layui-badge " style="vertical-align: 2px;">Cours</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/%c3%a9tiquettes/lois/">
+            <span class="layui-badge " style="vertical-align: 2px;">Lois</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/alimentation/">
+            <span class="layui-badge " style="vertical-align: 2px;">Alimentation</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
                 
                 <div style="margin-left: 10px;">
                     <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">

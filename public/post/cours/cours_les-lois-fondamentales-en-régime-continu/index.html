@@ -33,10 +33,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
-    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link rel="stylesheet" href="/res/css/ZAddedCSS.css"></head>
 
 <body>
     
@@ -162,14 +162,14 @@ layui.use('element', function(){
 <h4 id="la-loi-des-nœuds">La loi des nœuds</h4>
 <p>La loi des nœuds peut se résumer simplement par une seule phrase :</p>
 <p><strong>&ldquo;La somme des intensités des courants qui entrent par un nœud est égale à la somme des intensités des courants qui sortent du même nœud.&rdquo;</strong></p>
-<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff's_Current_Law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kirchhoff%27s_Current_Law.svg" alt="Image représentant la loi des nœuds" title="Image représentant la loi des nœuds"></a></p>
+<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff's_Current_Law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kirchhoff%27s_Current_Law.svg#center" alt="Image représentant la loi des nœuds" title="Image représentant la loi des nœuds"></a></p>
 <p>Ici, la somme des courants i1 et i2 qui rentrent dans le nœud est égale à la somme des courants i3 et i4 qui sortent du nœud.</p>
 <h3 id="la-tension-et-la-loi-des-mailles">La tension et la loi des mailles</h3>
 <h4 id="la-tension-électrique">La tension électrique</h4>
 <p>La tension n&rsquo;est pas une grandeur qu&rsquo;il est facile de définir sans entrer dans la théorie. Mais par analogie, on arrive à s&rsquo;approcher du sens de cette grandeur. On peut faire l&rsquo;analogie entre la tension électrique à un point donnée du circuit et l&rsquo;énergie potentielle en mécanique.</p>
 <p>$$Ep = m * g * h$$</p>
 <p>L&rsquo;énergie potentielle dépend directement de la hauteur à laquelle se trouve l&rsquo;objet de la formule. La hauteur maximale serait dans cet exemple la tension d&rsquo;alimentation (par exemple 5 volts) qui diminue à chaque fois que l&rsquo;on rencontre un conducteur.</p>
-<p><a href="https://fr.wikipedia.org/wiki/Diviseur_de_tension#/media/Fichier:Pont_diviseur_tension.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_diviseur_tension.svg" alt="Pont diviseur de tension" title="Pont diviseur de tension"></a></p>
+<p><a href="https://fr.wikipedia.org/wiki/Diviseur_de_tension#/media/Fichier:Pont_diviseur_tension.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_diviseur_tension.svg#center" alt="Pont diviseur de tension" title="Pont diviseur de tension"></a></p>
 <p>Dans ce circuit, que l&rsquo;on appelle un &ldquo;pont diviseur de tension&rdquo; (nous y reviendrons plus tard), si on imagine que U est la tension d&rsquo;alimentation du circuit, 5V par exemple, avant la première résistance la tension sera égale à U, soit 5V. Après la première résistance, la tension aura chuté. Après la deuxième résistance, la tension sera égale à 0.</p>
 <p>L&rsquo;intérêt de ce circuit étant de convertir une tension en une tension plus basse en jouant sur le rapport entre les deux résistances</p>
 <h4 id="la-différence-de-potentiel">La différence de potentiel</h4>
@@ -179,7 +179,7 @@ layui.use('element', function(){
 <h4 id="la-loi-des-mailles">La loi des mailles</h4>
 <p>La loi des mailles est la deuxième des <a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff">lois de Kirchhoff</a> dont la première était la <a href="#la-loi-des-n%C5%93uds">loi des nœuds</a>.</p>
 <p>La loi des mailles nous dit que lorsque l&rsquo;on traverse une maille (c&rsquo;est-à-dire une portion de circuit fermé) et partant d&rsquo;un point N pour revenir au même point N, la somme des différences de potentiel rencontrées est égale à <strong>zéro</strong>.</p>
-<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff_voltage_law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Kirchhoff_voltage_law.svg" alt="Loi des mailles" title="Loi des mailles"></a></p>
+<p><a href="https://fr.wikipedia.org/wiki/Lois_de_Kirchhoff#/media/Fichier:Kirchhoff_voltage_law.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Kirchhoff_voltage_law.svg#center" alt="Loi des mailles" title="Loi des mailles"></a></p>
 <p>Dans cette image, nous pouvons voir une maille d&rsquo;un circuit plus grand. Selon cette loi, la somme des tensions présentes maille présente sur cette image est égale à zéro. Ici :</p>
 <p>$$v1+v2+v3+v4 = 0$$</p>
 <p>Si nous reprenons un exemple avec une tension d&rsquo;alimentation de 5V et que nous admettons que &ldquo;R1 = R2 = R3&rdquo;, c&rsquo;est à dire que la tension aux bornes de chaque résistance est égale. Nous aurons donc :</p>
@@ -247,6 +247,55 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <h2 class="single-title">Les derniers articles</h2>
             
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/cours/cours_les-sources-d%C3%A9nergie-%C3%A9lectrique/">
+                        <h3 class="">Les sources d&#39;énergie électrique</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-11-02</span>
+
+    
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+        <a href="/cat%c3%a9gories/cours/">
+            <span class="layui-badge " style="vertical-align: 2px;">Cours</span>
+        </a>
+    
+
+    
+
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+        <a href="/%c3%a9tiquettes/lois/">
+            <span class="layui-badge " style="vertical-align: 2px;">Lois</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/alimentation/">
+            <span class="layui-badge " style="vertical-align: 2px;">Alimentation</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
                 
                 <div style="margin-left: 10px;">
                     <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">

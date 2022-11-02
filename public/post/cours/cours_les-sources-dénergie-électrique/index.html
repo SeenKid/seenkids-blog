@@ -3,12 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Zahkthar - Vous ne savez pas par où commencer ? </title>
+    <title>Zahkthar - Les sources d&#39;énergie électrique </title>
     
     
     <meta content="Zahkthar" name="keywords">
     
-    <meta content="Zahkthar - Je vous propose ici un ordre de lecture des articles du site" name="description">
+    <meta content="Zahkthar - Qu&#39;est-ce qu&#39;une source d&#39;énergie électrique ?" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -98,17 +98,17 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote  markdown-body single-title" >
-                    <h1>Vous ne savez pas par où commencer ?</h1>
+                    <h1>Les sources d&#39;énergie électrique</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2022-09-15</span>
+    <span>2022-11-02</span>
 
     
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
     
-        <a href="/s%c3%a9ries/aide-aux-lecteurs/">
-            <span class="layui-badge " style="vertical-align: 2px;">Aide aux lecteurs</span>
+        <a href="/s%c3%a9ries/les-bases-de-l%c3%a9lectronique/">
+            <span class="layui-badge " style="vertical-align: 2px;">Les bases de l&#39;électronique</span>
         </a>
     
 
@@ -116,8 +116,8 @@ layui.use('element', function(){
 
     <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
-        <a href="/cat%c3%a9gories/informations/">
-            <span class="layui-badge " style="vertical-align: 2px;">Informations</span>
+        <a href="/cat%c3%a9gories/cours/">
+            <span class="layui-badge " style="vertical-align: 2px;">Cours</span>
         </a>
     
 
@@ -125,8 +125,16 @@ layui.use('element', function(){
 
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
     
-        <a href="/%c3%a9tiquettes/plan-du-site/">
-            <span class="layui-badge " style="vertical-align: 2px;">Plan du site</span>
+        <a href="/%c3%a9tiquettes/lois/">
+            <span class="layui-badge " style="vertical-align: 2px;">Lois</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/th%c3%a9orie/">
+            <span class="layui-badge " style="vertical-align: 2px;">Théorie</span>
+        </a>
+    
+        <a href="/%c3%a9tiquettes/alimentation/">
+            <span class="layui-badge " style="vertical-align: 2px;">Alimentation</span>
         </a>
     
     
@@ -134,35 +142,65 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p><strong>Vous venez d&rsquo;arriver pour la première fois sur le site ou vous cherchez un ordre de lecture conseillé ? C&rsquo;est ce que je propose de faire ici en faisant une sorte de sommaire du site sur cet article</strong></p>
-<table>
-<thead>
-<tr>
-<th>Les articles à lire en premier</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://zahkthar.github.io/post/cours/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/">Les lois fondamentales en régime continu</a></td>
-</tr>
-</tbody>
-</table>
-<hr>
-<table>
-<thead>
-<tr>
-<th>Ordre conseillé de lecture des séries</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://zahkthar.github.io/s%C3%A9ries/les-bases-de-l%C3%A9lectronique/">Les bases de l&rsquo;électronique</a></td>
-</tr>
-<tr>
-<td><a href="https://zahkthar.github.io/s%C3%A9ries/aide-aux-lecteurs/">Aide au lecteur</a></td>
-</tr>
-</tbody>
-</table>
+                    <p><strong>Qu&rsquo;est-ce qu&rsquo;une source d&rsquo;énergie électrique et comment la modéliser ?</strong></p>
+<p>Comment alimenter un circuit n&rsquo;est pas forcément la première chose à laquelle on pense quand on le pense ou lorsqu&rsquo;on le dessine. Mais au final, c&rsquo;est ce qui va faire que le circuit marche ou pas ! Dans cet article, nous allons voir quelle est la différence entre une source de tension et de courant et la différence entre un générateur parfait et réel.</p>
+<p>Le programme sera donc le suivant :</p>
+<ol>
+<li><a href="#la-source-d%C3%A9nergie-%C3%A9lectrique">La source d&rsquo;énergie électrique</a></li>
+<li><a href="#la-source-de-tension">La source de tension</a></li>
+<li><a href="#la-source-de-courant">La source de courant</a></li>
+</ol>
+<h3 id="la-source-dénergie-électrique">La source d&rsquo;énergie électrique</h3>
+<p>La définition d&rsquo;une source d&rsquo;énergie est assez simple et elle est partout autour de nous. Une source d&rsquo;énergie doit est un circuit ou un composant dont le but est de fournir via ses deux bornes que l&rsquo;on peut appeller A et B une tension U et une intensité I, soit une puissance P qui est le produit de U par I. Une puissance maximale notée généralement Pmax est donnée en raison de l&rsquo;effet Joule dont nous reverrons l&rsquo;implication dans les paragraphes sur les générateurs réels.</p>
+<p>La manière dont la source va fournir l&rsquo;énergie peut donc être séparée en deux grandes catégories :</p>
+<ul>
+<li>La tension est constante et l&rsquo;intensité varie : C&rsquo;est une <a href="#la-source-de-tension">source de tension</a>.</li>
+<li>L&rsquo;intensité est constante et la tension varie : C&rsquo;est une <a href="#la-source-de-courant">source de courant</a>.</li>
+</ul>
+<h3 id="la-source-de-tension">La source de tension</h3>
+<h4 id="la-source-de-tension-parfaite">La source de tension parfaite</h4>
+<p>Une source de tension parfaite est un générateur dont la tension est parfaitement contante et l&rsquo;intensité varie en fonction de la charge.</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceTensionParfaite.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceTensionParfaite.png#center" alt="Courbe caractéristique d&amp;rsquo;une source de tension parfaite" title="Courbe caractéristique d'une source de tension parfaite"></a></p>
+<p>La tension UAB aux bornes de la source est constante quelle que soit l&rsquo;intensité du courant généré. La source est dite &ldquo;idéale&rdquo;</p>
+<h4 id="la-source-de-tension-réelle">La source de tension réelle</h4>
+<p>Pour des raisons évidente, un source de tension parfaite ne peut pas exister. Si la tension est constante peu importe le courant I débité par la source, cela sous-entendrait que la puissance augmenterait linéairement en fonction de l&rsquo;intensité (pour 1000 Ampères et 5V, nous aurions 5000W, pour 100kA, nous aurions 500kW, etc&hellip; ce qui n&rsquo;a évidemment aucun sens si on parle d&rsquo;une batterie de téléphone par exemple).</p>
+<p>En réalité, la source de tension doit prendre en compte les pertes par effet Joule. Pertes qui sont responsables de la limitation de puissances sur tous les types de générateurs. Pour modéliser cette perte par effet Joule, nous pouvons rajouter une résistance interne en série avec la source de tension.</p>
+<p>On se retrouve donc avec un modèle équivalent à une source réelle de tension :</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/ModeleEquivalentSourceTensionReelle.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/ModeleEquivalentSourceTensionReelle.png#center" alt="Modèle équivalent d&amp;rsquo;une source de tension réelle" title="Modèle équivalent source de tension réelle"></a></p>
+<p>Où l&rsquo;on voit bien la résistance interne, ici R1 et R2 qui représente la charge alimentés par un générateur parfait V1.</p>
+<p>On peut en déduire que la tension du générateur réel de tension (ici V1 et R1) que l&rsquo;on mesurera au bords de la borne &ldquo;-&rdquo; du générateur et la borne de la résistance qui n&rsquo;est pas en contact avec le générateur (ou plus simplement aux bornes de R2) sera donnée par la formule suivatne :</p>
+<p>$$E = \text{UV1} - \text{UR1}$$</p>
+<p>$$\Rightarrow E = \text{UV1} - (\text{R1} * I)$$</p>
+<p>Et cette fois ci, la tension n&rsquo;est bel et bien plus du tout constante mais plus l&rsquo;intensité devient grande, et plus la chute de tension dans la résistance R1 est grande à cause des pertes dues à l&rsquo;effet Joule.</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceTensionReelle.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceTensionReelle.png#center" alt="Courbe caractéristique d&amp;rsquo;une source de tension réelle" title="Courbe caractéristique d'une source de tension réelle"></a></p>
+<p>Nous voyons bien sur la courbe que le coefficient directeur est l&rsquo;opposé de la valeur de la résistance interne de la source de tension.</p>
+<p>Une résistance interne de 2Ω peut être beaucoup ou peu selon les types d&rsquo;alimentation et ce que l&rsquo;on alimente. Mais avec cette résistance interne, nous pouvons remarquer que la tension chute assez vite et atteint 0V pour I = 2.5A (En effet, 5 - 2*2.5 = 0 pour reprendre la formule).</p>
+<p>Note : La résistance interne d&rsquo;une source de tension peut être déterminée empiriquement avec la tension de l&rsquo;alim pendant qu&rsquo;elle tire du courant et la tension à vide de la source grâce à la formule :</p>
+<p>$$\text{UV1} - E = \text{UR1}$$</p>
+<p>$$\text{R1} = \frac{\text{UR1}}{I} = \frac{\text{UV1} - E}{I}$$</p>
+<h3 id="la-source-de-courant">La source de courant</h3>
+<h4 id="la-source-de-courant-parfaite">La source de courant parfaite</h4>
+<p>Une source de courant parfaite est un générateur dont le courant est parfaitement contant et la tension varie en fonction de la charge</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceCourantParfaite.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceCourantParfaite.png#center" alt="Courbe caractéristique d&amp;rsquo;une source de courant réelle" title="Courbe caractéristique d'une source de courant parfaite"></a></p>
+<h4 id="la-source-de-courant-réelle">La source de courant réelle</h4>
+<p>Pour les mêmes raisons qu&rsquo;au dessus, une telle source d&rsquo;énergie ne peut pas exister.</p>
+<p>Dans un circuit avec plusieures résistances en série (cf. <a href="#la-source-de-tension-r%C3%A9elle">source de tension réelle</a>), la tension se sépare entre les résistances, ce qui était pratique pour modéliser les pertes dûes à l&rsquo;effet Joule. Dans le cas d&rsquo;une source de courant, il faudrait que l&rsquo;intensité se sérpare entre les résistances&hellip; Pour cela nous allons mettre notre résistance interne en dérivation par rapport à la source !</p>
+<p>Nous nous retrouvons donc avec un modèle équivalent à celui-ci :</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/ModeleEquivalentSourceCourantReelle.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/ModeleEquivalentSourceCourantReelle.png#center" alt="Courbe caractéristique d&amp;rsquo;une source de courant réelle" title="Modèle équivalent source de courant réelle"></a></p>
+<p>La tension aux bornes de R2 que l&rsquo;on peut appeler UR2 se calcule donc avec la loi d&rsquo;Ohm :</p>
+<p>$$U_{R2} = R2*(I - I_{R1})$$</p>
+<p>Où :</p>
+<ul>
+<li>I est l&rsquo;intensité totale, ici 2A</li>
+<li>IR1 est l&rsquo;intensité qui passe dans la résistance interne</li>
+</ul>
+<p>Ce qui implique que :</p>
+<p>$$I_{R1} = I - I_{R2}$$
+$$\Rightarrow I_{R2} = I - (\frac{U_{R2}}{R2})$$</p>
+<p><a href="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceCourantReelle.png"><img src="/res/images/Cours_LesSourcesDEnergieElectrique/Caract%C3%A9ristiqueSourceCourantReelle.png#center" alt="Courbe caractéristique d&amp;rsquo;une source de courant réelle" title="Courbe caractéristique d'une source de courant reelle"></a></p>
+<p>$$\text{Courbe prise avec R2 = 30Ω}$$</p>
+<p>Comme nous pouvons le voir sur la courbe, si l&rsquo;on monte la tension (pas intuitif de considérer l&rsquo;ordonnée comme variable je sais), l&rsquo;intensité va doucement se rapprocher de l&rsquo;odonnée. Pour une tension de 0V, nous retrouvons bien nos 2A, par contre pour 3V, on peut voir que l&rsquo;intensité a déjà chutée à 1.9A.</p>
+<p>L&rsquo;équation de la courbe étant U(x) = 30(2 - x) = 60 - 30x, nous pouvons facilement deviner que l&rsquo;intensité sera de 0A lorsque la tension sera à 60V.</p>
 <p> </p>
 </div>
             </div>
