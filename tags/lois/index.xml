@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lois on Zahkthar</title>
+    <link>https://zahkthar.github.io/tags/lois/</link>
+    <description>Recent content in Lois on Zahkthar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:47:41 +0200</lastBuildDate><atom:link href="https://zahkthar.github.io/tags/lois/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les lois fondamentales en régime continu</title>
+      <link>https://zahkthar.github.io/post/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/</link>
+      <pubDate>Thu, 01 Sep 2022 00:47:41 +0200</pubDate>
+      
+      <guid>https://zahkthar.github.io/post/cours_les-lois-fondamentales-en-r%C3%A9gime-continu/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur id lectus pretium cursus. Mauris tincidunt eros sed felis ultricies facilisis. Phasellus mollis egestas odio, eu sagittis turpis sagittis ac. Phasellus dapibus, mi sit amet eleifend luctus, turpis enim bibendum eros, et iaculis libero ex vitae diam. Suspendisse id enim suscipit, convallis ex quis, tincidunt tellus. Ut id eros quam. Integer iaculis, nibh id sodales viverra, libero ante faucibus augue, vitae euismod risus tellus sit amet ex.</description>
+    </item>
+    
+  </channel>
+</rss>
